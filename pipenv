@@ -1,0 +1,9 @@
+    2.进入env独立开发环境。pipenv install。
+    3.新建一个项目文件夹——cd到本文件夹——进行pipenv  install——pipenv shell——python 1.py(1.py提前在项目文件夹下新建好)；如果想再建一个虚拟环境，方法同上。
+    4.运行：pipenv shell——python test01.py。
+    5.修改国内源，pipfile——然后删除pipfile.lock文件——重新pipenv install。
+    6.项目文件被删除，用vclscode打开pipfile——pipenv install——项目文件又回来了！（所以只要发送pipfile给别人，别人新建一个文件夹把pipfile放进去，并在该文件夹运行pipenv install就可以了。）
+    7.退出虚拟环境，exit。
+    8.安装包，在pipenv shell——pipenv install requests。
+    9.删除虚拟环境，pipenv --rm
+    10.
